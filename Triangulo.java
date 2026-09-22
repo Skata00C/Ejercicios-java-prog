@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-
+/** @autor Pablo Cores   */
 
 
 public class Triangulo {
@@ -19,7 +19,7 @@ public class Triangulo {
         
         sc.close(); // Cerramos el Scanner por cuestiones de rendimiento
 
-        System.out.print("El área del triangulo es:)" + (b  * h) / 3.) ;
+        System.out.print("El área del triangulo es:)" + (b  * h) / 2.) ;
 
     }
 
