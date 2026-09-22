@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+/** @autor Pablo Cores   */
+
 public class EcuaciónGrado2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);        // Realizo el Scanner para poder darle valores a las varibles de la equiación
