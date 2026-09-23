@@ -19,10 +19,6 @@ public class HorasSegundos {
 
         // Salida de las operaciones resueltas 
         System.out.printf( "%02d:%02d:%02d", nHoras, nMinutos, nsegundos);
-
-    
-
-
     }
 
 }
