@@ -1,8 +1,6 @@
-
-
-/** @autor Pablo Cores   */
-
 import java.util.Scanner;
+
+/** @author Pablo Cores  */
 
 public class IVA {
         public static void main(String[] args) {
