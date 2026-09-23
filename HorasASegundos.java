@@ -14,7 +14,7 @@ public class HorasASegundos {
         int res = JOptionPane.showConfirmDialog(null, "Quieres pasarlo a segundos ahora ?");
 
         double nsegundos = (minutos * 60);
-        String msg2 = res == 0 ? nsegundos + " segundos" : "Hasta luego";
+        String msg2 = res == 0 ? nsegundos + " segundos" : "Hasta luego CRAK";
         JOptionPane.showMessageDialog(null, msg2);
         
     }
