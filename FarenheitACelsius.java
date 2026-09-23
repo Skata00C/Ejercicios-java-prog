@@ -9,6 +9,7 @@ public class FarenheitACelsius {
         System.out.print("Es cribe los grandos Farenheit:");
         double grados = sc.nextDouble();
         System.out.println("===========");
+        sc.close();
 
         // Realizamos la operación aplicando la fórmula.
         System.out.println("En grados Celsius es: " + 5. / 9 * (grados - 32));

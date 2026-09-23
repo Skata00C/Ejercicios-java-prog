@@ -10,6 +10,7 @@ public class CelsiusAFarenheit {
         Scanner sc = new Scanner(System.in);
         System.out.print("Es cribe los grandos:");
         double grados = sc.nextDouble();
+        sc.close();
         System.out.println("==========="); // Separación por fines estéticos
 
         // Realizamos la operación aplicando la fórmula.

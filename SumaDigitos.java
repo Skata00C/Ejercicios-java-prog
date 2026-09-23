@@ -8,6 +8,7 @@ public class SumaDigitos {
         Scanner sc = new Scanner(System.in);
         System.out.print("Escribe un número de 3 dígitos: ");
         int n = sc.nextInt();
+        sc.close();
 
         // Realizamos las siguientes operaciones para sacar el número de cada dígitos.
         int centenas = n / 100;
