@@ -22,9 +22,7 @@ public class SumaDigitos {
         String resultado = (n > 99 && n < 1000)
         ? "La suma de sus dígitos: " + suma : "Tu número no tiene 3 dígitos";
 
-        System.out.println(decenas);
-
-
+        // Damos salida al resultado
         System.out.println("Tu número es: " + n );
         System.out.printf(resultado);
 
