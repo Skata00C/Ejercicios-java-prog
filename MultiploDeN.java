@@ -9,6 +9,8 @@ public class MultiploDeN {
         int n = sc.nextInt();
         System.out.print("Escribe un número m: ");
         int m = sc.nextInt();
+        sc.close();
+        
         int resto = n % m;
         int suma = m - resto;
         int resultSuma = n + suma;
