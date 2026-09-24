@@ -13,8 +13,8 @@ public class MultiploDe7 {
         int suma = 7 - resto;
         int resultSuma = a + suma;
         
-        String resultado = ( a == 7 && a != 7)
-        ? "No hay que sumarle nada" + a : "Para que sea multiplo de 7 habrá que sumarle " + suma + "\n" + "Quedando así: " + resultSuma;
+        String resultado = ( a % 7 == 0 && a != 7)
+        ? "No hay que sumarle nada: " + a : "Para que sea multiplo de 7 habrá que sumarle " + suma + "\n" + "Quedando así: " + resultSuma;
 
         System.out.print(resultado);
     }
