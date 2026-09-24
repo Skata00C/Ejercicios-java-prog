@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+/** @author Pablo Cores */
+
 public class Entradas {
     public static void main(String[] args) {
         // Creamos el Scanner para preguntar el usuario el número de entradas.
