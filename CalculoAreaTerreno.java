@@ -1,7 +1,5 @@
 import java.util.Scanner;
 
-import javax.swing.Spring;
-
 /** @author Pablo Cores */
 
 public class CalculoAreaTerreno {
