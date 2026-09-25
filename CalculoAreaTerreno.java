@@ -20,16 +20,18 @@ public class CalculoAreaTerreno {
         double áreaTriángulo = ( (b * (a - c)) / 2);
         double áreaTotal = áreaRectángulo + áreaTriángulo;
         String error = ("Error");
-        double perímetro = a + b + c + ();
+        double hipotenusa = Math.sqrt(Math.pow(b, 2) + Math.pow((a - c), 2));
+        double perímetro = a + b + c + hipotenusa;
 
         /** Tengo que crear un ternario que impida seguir con el proceso
          * en caso de que el valor de la variable "c" sea superior a la
          * variable "a". */
-        String restVariables = (a > c && a <= c)
-        ? "El área del es: " + áreaTotal +"\n Y el perímetro es:" : "No es posible no respeta la forma de los terrenos de la constuctora--> " + error;
+
+        String restVariables = (a > c)
+        ? "El área del es: " + áreaTotal : "No es posible no respeta la forma de los terrenos de la constuctora--> " + error;
 
         System.out.println(restVariables);
-        System.out.println("El perímetro es: " + perímetro);
+        System.out.printf("El perímetro es: " + "%.2f", perímetro);
 
 
     }
