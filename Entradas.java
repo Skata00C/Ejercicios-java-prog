@@ -7,18 +7,18 @@ public class Entradas {
         // Creamos el Scanner para preguntar el usuario el número de entradas.
         Scanner sc = new Scanner(System.in);
         System.out.print("Escribe el número de entras de niñós: ");
-        double EntNiños = sc.nextDouble();
+        int entNinos = sc.nextInt();
         System.out.print("Escribe el número de entras de adultos: ");
-        double EntAdultos = sc.nextDouble();
+        int entAdultos = sc.nextInt();
         sc.close();
 
         // Creo en las constantes.
-        final double niños = 15.50;
-        final double adultos = 20;
+        final double NINOS = 15.50;
+        final double ADULTOS = 20;
 
         // Aplico la variable (entradas) a las constantes (precios) y creo el precio total de las entradas.
-        double inpNiños = EntNiños * niños; 
-        double inpAdultos = EntAdultos * adultos;
+        double inpNiños = entNinos * NINOS; 
+        double inpAdultos = entAdultos * ADULTOS;
         double precioTotal = inpNiños + inpAdultos;
         System.out.println("Precio total de las entras es: " + precioTotal );
 
@@ -26,7 +26,7 @@ public class Entradas {
         double sup100 = 0.95 * precioTotal;
 
         // Creo el ternario que de las dos opciones de solución y soy salida al programa.
-        String resultado = (precioTotal > 0 && precioTotal < 100 )
+        String resultado = (precioTotal < 100 )
         ? "El precio total es: " + precioTotal : "El precio total con el descuento del 5% es: " + sup100;
 
         System.out.println(resultado);
